@@ -10,6 +10,7 @@ public class Loginpage
 
 	public static void main(String[] args) 
 	{
+		
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		String URL = "https://bcln-001.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.store/Sites-marykayintouch-br-Site/pt_BR/Login-Show";
